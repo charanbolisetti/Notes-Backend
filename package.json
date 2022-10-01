@@ -1,0 +1,30 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "notes backend",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charanbolisetti/Notes-Backend.git"
+  },
+  "keywords": [
+    "note"
+  ],
+  "author": "charan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charanbolisetti/Notes-Backend/issues"
+  },
+  "homepage": "https://github.com/charanbolisetti/Notes-Backend#readme"
+}
