@@ -1,11 +1,12 @@
 var mongoClient=require('mongodb').MongoClient;
 var express=require('express');
 var mongodb=require('mongodb');
+require('dotenv').config();
 var cors=require('cors');
 
 var app=express();
 
-const url='mongodb+srv://charan:RG17ptMY4earmxrE@cluster0.cwtnj7u.mongodb.net/?retryWrites=true&w=majority';
+const url= process.env.URL;
 const dbName="NotesData"
  
 mongoClient.connect(url,{useUnifiedTopology:true},(err,client)=>{
